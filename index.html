@@ -1,0 +1,14 @@
+---
+layout: default
+title: "------------"
+fulltitle: "------------" 
+---
+<ul>
+{% for pose in site.data.poses %}
+  <li>
+    <a href="poses/{{ pose.url }}">
+      {{ pose.english }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
