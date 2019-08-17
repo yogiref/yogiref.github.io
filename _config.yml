@@ -1,1 +1,18 @@
-theme: jekyll-theme-minimal
+# Site settings
+title: "Yogiref - Yoga Pose Reference"
+tagline: "..."
+# url: "http://yogiref.com" # The base hostname & protocol for your site. Use it if you need absolute URL's
+# permalink: /posts/:title/
+
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
+future: true
+
+
+# gem to generate pages from JSON
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+
+page_gen:
+  - data: 'poses'
+    template: 'pose'
+    name: 'title'
+    dir: 'yoga-poses'
