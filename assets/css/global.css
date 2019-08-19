@@ -39,6 +39,7 @@ p {
   color: white;
 }
 .full-width {
+  display: flex;
   width: 100%;
 }
 .white {
