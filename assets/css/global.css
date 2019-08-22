@@ -160,17 +160,17 @@ p {
 
 /*pose*/
 .pose-image-wrapper {
+  align-items: center;
   background: white;
+  display: flex;
+  height: 500px;
+  justify-content: center;
   margin-top: 25px;
   padding: 16px;
-  min-height: 450px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .pose-image {
-  padding-top: 20px;
-  width: 200px;
+  max-height: 400px;
+  max-width: 400px;
 }
 .pose-break {
   padding-top: 15px;
